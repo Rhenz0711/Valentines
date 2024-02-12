@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
 
 
 
@@ -28,7 +29,9 @@ body {
     z-index: -100;
 }
 
-
+.text h2 {
+    font-family: 'Dancing Script', cursive;
+}
 
 .text h2, .text2 h2 {
     padding: 2rem;
@@ -75,4 +78,6 @@ body {
     left: 50%;
     transform: translateX(-50%);
     top: -30%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
 }
